@@ -1,0 +1,14 @@
+//Remove Trail Space
+public static void main (String[] args) {
+  String text="  Hey There   ";
+  //Method 1
+  System.out.println(text.trim());
+
+  //Method2
+  String text2="  Hi Bro  ";
+  System.out.println(text2.trial());
+  System.out.println(text2.trial().leading());
+  System.out.println(text2.trial().trailing());
+
+
+  ^[ /t]|+[ /t]$
