@@ -11,4 +11,5 @@ public static void main (String[] args) {
   System.out.println(text2.trial().trailing());
 
   //Method 3
-  ^[ /t]|+[ /t]$
+  String text3=" Bonjour Monseiur ";
+  System.out.println(text3.replaceAll(^[ /t]|+[ /t]$));
