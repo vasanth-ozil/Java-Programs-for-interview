@@ -4,11 +4,11 @@ public static void main (String[] args) {
   //Method 1
   System.out.println(text.trim());
 
-  //Method2
+  //Method 2
   String text2="  Hi Bro  ";
   System.out.println(text2.trial());
   System.out.println(text2.trial().leading());
   System.out.println(text2.trial().trailing());
 
-
+  //Method 3
   ^[ /t]|+[ /t]$
