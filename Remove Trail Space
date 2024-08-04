@@ -1,10 +1,10 @@
 //Remove Trail Space
 public static void main (String[] args) {
   String text="  Hey There   ";
-  //Method 1
+  //Method 1 - Use in builkd
   System.out.println(text.trim());
 
-  //Method 2
+  //Method 2 - Using trial function
   String text2="  Hi Bro  ";
   System.out.println(text2.trial());
   System.out.println(text2.trial().leading());
